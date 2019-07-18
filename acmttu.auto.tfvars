@@ -1,12 +1,12 @@
 # This is where we will configure out new project
 
-github_token = "ce3e772e04102fb349949a94f8479ae84084fc7f"
+github_token = ""
 
-repository_name = "raider-pages"
+repository_name = ""
 
-project_slug = "Raider Pages"
+project_slug = ""
 
-year = "2019"
+year = ""
 
-season = "Fall"
+season = ""
 
