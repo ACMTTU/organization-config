@@ -4,9 +4,18 @@ terraform {
 
 provider "github" {
   token        = var.github_token
-  organization = "TTUSDC"
+  organization = "ACMTTU"
   version      = "~> 2.2"
 }
+
+module "project-setup" {
+  source = "./modules/project-setup"
+
+  year         = var.year
+  season       = var.season
+  project_slug = var.project_slug
+}
+
 
 module "teams" {
   source = "./modules/teams"

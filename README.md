@@ -8,9 +8,13 @@ a Terraform module that talks to GitHub to tell it what we want
 
 # How to create Projects
 
+> terraform version
+> terraform init
+
 Fill out the `acmttu.auto.tfvars` with the information required
 
 > ./plan-create.sh
+>
 > ./apply-changes.sh
   
 # How to delete Projects
@@ -18,6 +22,7 @@ Fill out the `acmttu.auto.tfvars` with the information required
 Leave the `acmttu.auto.tfvars` file the way it is
 
 > ./plan-delete.sh
+>
 > ./apply-changes
 
 # Conclusion

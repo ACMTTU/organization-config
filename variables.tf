@@ -1,4 +1,5 @@
 variable "github_token" {
+  type        = string
   description = "Token used for authenticating with GitHub. Must contact owner or organization."
 }
 
