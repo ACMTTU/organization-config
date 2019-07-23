@@ -5,10 +5,12 @@ a Terraform module that talks to GitHub to tell it what we want
 
 # Prerequisites
 - [Terraform](https://www.terraform.io/downloads.html)
+- Must have Owner privileges for the organization
 
 # How to create Projects
 
 > terraform version
+>
 > terraform init
 
 Fill out the `acmttu.auto.tfvars` with the information required
